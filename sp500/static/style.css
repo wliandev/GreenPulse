@@ -27,8 +27,8 @@ body, html {
     left: 0;
     margin: 30px;
     width: calc(100% - 60px);
-    height: 70%;
-
+    height: 65%;
+    /* effects */
     border-style: solid;
     border-width: 1px 2px 3px 2px;
     border-color: #B0B0B0;
@@ -44,10 +44,21 @@ body, html {
 }
 .info-section {
     padding-left: 20px;
+    display: flex;
+}
+.score-info {
+    flex: 1;
+}
+.stock-info {
+    flex: 1;
+}
+.gen-info {
+    flex: 1;
 }
 .footer {
     flex: 1;
     padding: 20px;
+    border-top: 2px solid #B0B0B0;
 }
 .table-content {
     flex: 1;
@@ -68,6 +79,29 @@ th, td {
     text-align: left;
     border-bottom: 1px solid #B0B0B0;
 }
-tr:nth-child(odd) { 
+tr:nth-child(even) { 
     background-color: #233847;
+}
+tr:hover {
+    cursor: pointer;
+    background-color: steelblue;
+}
+tr:nth-child(1):hover { 
+    background-color: #0D1E2B;
+    cursor: default;
+}
+
+#chart {
+    color: #67809f;
+    text-align: center;
+}
+svg {
+  display: block;
+  margin: 0 auto;
+}
+.xAxis path {
+  stroke: #ffffff;
+}
+.yAxis path {
+  stroke: #ffffff;
 }
