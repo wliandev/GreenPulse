@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #0D1E2B;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+.banner {
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 2px solid #B0B0B0;
+}
+.container {
+    display: flex;
+    height: calc(100% - 120px); /* Adjusted height to accommodate banner */
+}
+.fixed-div {
+    flex: 1;
+    overflow: hidden;
+    flex-direction: column;
+}
+.graph {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 30px;
+    width: calc(100% - 60px);
+    height: 70%;
+
+    border-style: solid;
+    border-width: 1px 2px 3px 2px;
+    border-color: #B0B0B0;
+    border-radius: 20px;
+    box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient(#0D1E2B, 80%, #18364C);
+}
+.graph-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+.info-section {
+    padding-left: 20px;
+}
+.footer {
+    flex: 1;
+    padding: 20px;
+}
+.table-content {
+    flex: 1;
+    overflow-y: scroll;
+    padding: 20px;
+}
+.table-container {
+    flex: 1;
+    padding: 20px;
+    overflow-y: scroll;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #B0B0B0;
+}
+tr:nth-child(odd) { 
+    background-color: #233847;
+}

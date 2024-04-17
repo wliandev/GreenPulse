@@ -1,9 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>GreenPulse</title>
-    </head>
-    <body>
-        <h1>GreenPulse</h1>    
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenPulse</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<div class="banner">
+    <h1>GreenPulse</h1>
+</div>
+
+<div class="container">
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Symbol</th>
+                <th>Company</th>
+            </tr>
+            {% for c in mycompanies %}
+            <tr>
+                <th>{{ c.symbol }}</th>
+                <th>{{ c.name }}</th>
+            </tr> 
+            {% endfor %}
+        </table>
+    </div>
+    <div class="fixed-div">
+        <div class="graph">
+            <button>1D</button>
+            <button>1M</button>
+            <button>6M</button>
+            <button>1Y</button>
+            <button>5Y</button>
+            <div class="graph-caption">Fixed Image Caption</div>
+        </div>
+        <div class="info-section">
+            <h2>Company name</h2>
+            <h3>Industry</h3>
+            <h4>Environment Score</h4>
+            <h4>Social Score</h4>
+            <h4>Governance Score</h4>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <h2>About this Site</h2>
+    <p>This is the text that appears below both divs.</p>
+</div>
+
+</body>
 </html>
+
+<!-- <th>Star</th> boolean
+<th>Symbol</th> sp500 scrape
+<th>Company</th> sp500 scrape
+<th>Price</th> chart URL
+<th>Change</th> chart URL
+<th>Industry</th> ESG URL
+<th>Score</th> ESG URL -->
