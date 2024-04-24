@@ -1,504 +1,504 @@
-sym,name
-MSFT,Microsoft Corporation
-AAPL,Apple Inc
-NVDA,NVIDIA Corporation
-GOOG,Alphabet Inc.
-GOOGL,Alphabet Inc.
-AMZN,Amazon.com, Inc.
-META,Meta Platforms, Inc.
-BRK.B,Berkshire Hathaway Inc.
-LLY,Eli Lilly and Company
-AVGO,Broadcom Inc.
-JPM,JPMorgan Chase & Co.
-TSLA,Tesla, Inc.
-V,Visa Inc.
-WMT,Walmart Inc.
-XOM,Exxon Mobil Corporation
-MA,Mastercard Incorporated
-UNH,UnitedHealth Group Incorporated
-PG,The Procter & Gamble Company
-JNJ,Johnson & Johnson
-HD,The Home Depot, Inc.
-ORCL,Oracle Corporation
-MRK,Merck & Co., Inc.
-COST,Costco Wholesale Corporation
-CVX,Chevron Corporation
-ABBV,AbbVie Inc.
-BAC,Bank of America Corporation
-CRM,Salesforce, Inc.
-AMD,Advanced Micro Devices, Inc.
-NFLX,Netflix, Inc.
-KO,The Coca-Cola Company
-PEP,PepsiCo, Inc.
-TMO,Thermo Fisher Scientific Inc.
-ADBE,Adobe Inc.
-LIN,Linde plc
-DIS,The Walt Disney Company
-ACN,Accenture plc
-WFC,Wells Fargo & Company
-CSCO,Cisco Systems, Inc.
-QCOM,QUALCOMM Incorporated
-ABT,Abbott Laboratories
-MCD,McDonald's Corporation
-TMUS,T-Mobile US, Inc.
-CAT,Caterpillar Inc.
-DHR,Danaher Corporation
-INTU,Intuit Inc.
-AMAT,Applied Materials, Inc.
-IBM,International Business Machines Corporation
-VZ,Verizon Communications Inc.
-GE,GE Aerospace
-INTC,Intel Corporation
-BX,Blackstone Inc.
-NOW,ServiceNow, Inc.
-AXP,American Express Company
-CMCSA,Comcast Corporation
-TXN,Texas Instruments Incorporated
-UBER,Uber Technologies, Inc.
-COP,Conoco Phillips
-MS,Morgan Stanley
-PFE,Pfizer Inc.
-UNP,Union Pacific Corporation
-AMGN,Amgen Inc.
-PM,Philip Morris International Inc.
-LOW,Lowe's Companies, Inc.
-SPGI,S&P Global Inc.
-NKE,NIKE, Inc.
-ISRG,Intuitive Surgical, Inc.
-GEV,GE Vernova
-MU,Micron Technology, Inc.
-RTX,RTX Corp
-GS,The Goldman Sachs Group, Inc.
-NEE,NextEra Energy, Inc.
-SYK,Stryker Corporation
-HON,Honeywell International Inc.
-UPS,United Parcel Service, Inc.
-SCHW,The Charles Schwab Corporation
-LRCX,Lam Research Corporation
-ETN,Eaton Corporation plc
-BKNG,Booking Holdings Inc.
-T,AT&T Inc.
-PGR,The Progressive Corporation
-BLK,BlackRock, Inc.
-ELV,Elevance Health Inc.
-C,Citigroup Inc.
-PLD,Prologis, Inc.
-DE,Deere & Company
-MDT,Medtronic plc
-TJX,The TJX Companies, Inc.
-BA,The Boeing Company
-LMT,Lockheed Martin Corporation
-ABNB,Airbnb, Inc.
-CI,Cigna Corporation
-VRTX,Vertex Pharmaceuticals Incorporated
-BMY,Bristol-Myers Squibb Company
-ADP,Automatic Data Processing, Inc.
-REGN,Regeneron Pharmaceuticals, Inc.
-CB,Chubb Limited
-BSX,Boston Scientific Corporation
-ADI,Analog Devices, Inc.
-MMC,Marsh & McLennan Companies, Inc.
-SBUX,Starbucks Corporation
-KLAC,KLA Corporation
-CVS,CVS Health Corporation
-ANET,Arista Networks, Inc.
-FI,Fiserv, Inc.
-MDLZ,Mondelez International, Inc.
-PANW,Palo Alto Networks, Inc.
-AMT,American Tower Corporation
-GILD,Gilead Sciences, Inc.
-SNPS,Synopsys, Inc.
-HCA,HCA Healthcare, Inc.
-SHW,The Sherwin-Williams Company
-CDNS,Cadence Design Systems, Inc.
-WM,Waste Management, Inc.
-CMG,Chipotle Mexican Grill, Inc.
-EOG,EOG Resources, Inc.
-GD,General Dynamics Corporation
-TGT,Target Corporation
-ITW,Illinois Tool Works Inc.
-SLB,Schlumberger Limited
-SO,The Southern Company
-MPC,Marathon Petroleum Corporation
-ZTS,Zoetis Inc.
-ICE,Intercontinental Exchange, Inc.
-CME,CME Group Inc.
-EQIX,Equinix, Inc.
-DUK,Duke Energy Corporation
-MO,Altria Group, Inc.
-MAR,Marriott International, Inc.
-FCX,Freeport-McMoRan Inc.
-MCO,Moody's Corporation
-CL,Colgate-Palmolive Company
-PH,Parker-Hannifin Corporation
-PYPL,PayPal Holdings, Inc.
-PSX,Phillips 66
-CSX,CSX Corporation
-BDX,Becton, Dickinson and Company
-MCK,McKesson Corporation
-APH,Amphenol Corporation
-CTAS,Cintas Corporation
-USB,U.S. Bancorp
-TT,Trane Technologies plc
-FDX,FedEx Corporation
-TDG,TransDigm Group Incorporated
-NOC,Northrop Grumman Corporation
-EMR,Emerson Electric Co.
-ORLY,O'Reilly Automotive, Inc.
-ECL,Ecolab Inc.
-PNC,The PNC Financial Services Group, Inc.
-NXPI,NXP Semiconductors N.V.
-AON,Aon plc
-PXD,Pioneer Natural Resources Company
-PCAR,PACCAR Inc
-OXY,Occidental Petroleum Corporation
-RSG,Republic Services, Inc.
-CEG,Constellation Energy Corporation
-VLO,Valero Energy Corporation
-MSI,Motorola Solutions, Inc.
-ROP,Roper Technologies, Inc.
-MNST,Monster Beverage Corporation
-NSC,Norfolk Southern Corporation
-EW,Edwards Lifesciences Corporation
-COF,Capital One Financial Corporation
-CPRT,Copart, Inc.
-DXCM,DexCom, Inc.
-APD,Air Products and Chemicals, Inc.
-EL,The Estée Lauder Companies Inc.
-SMCI,Super Micro Computer, Inc.
-HLT,Hilton Worldwide Holdings Inc.
-AJG,Arthur J. Gallagher & Co.
-ADSK,Autodesk, Inc.
-F,Ford Motor Company
-MET,MetLife, Inc.
-FTNT,Fortinet, Inc.
-DHI,D.R. Horton, Inc.
-AZO,AutoZone, Inc.
-WELL,Welltower Inc.
-CARR,Carrier Global Corporation
-TFC,Truist Financial Corporation
-GM,General Motors Company
-AIG,American International Group, Inc.
-MMM,3M Company
-PSA,Public Storage
-TRV,The Travelers Companies, Inc.
-GWW,W.W. Grainger, Inc.
-MCHP,Microchip Technology Incorporated
-SPG,Simon Property Group, Inc.
-STZ,Constellation Brands, Inc.
-AFL,Aflac Incorporated
-HES,Hess Corporation
-NUE,Nucor Corporation
-ODFL,Old Dominion Freight Line, Inc.
-COR,Cencora
-WMB,The Williams Companies, Inc.
-ROST,Ross Stores, Inc.
-URI,United Rentals, Inc.
-O,Realty Income Corporation
-OKE,ONEOK, Inc.
-NEM,Newmont Corporation
-LEN,Lennar Corporation
-PAYX,Paychex, Inc.
-TEL,TE Connectivity Ltd.
-DLR,Digital Realty Trust, Inc.
-SRE,Sempra
-KHC,The Kraft Heinz Company
-AEP,American Electric Power Company, Inc.
-IQV,IQVIA Holdings Inc.
-JCI,Johnson Controls International plc
-CCI,Crown Castle Inc.
-ALL,The Allstate Corporation
-AMP,Ameriprise Financial, Inc.
-MSCI,MSCI Inc.
-FAST,Fastenal Company
-IDXX,IDEXX Laboratories, Inc.
-LULU,Lululemon Athletica Inc.
-KMB,Kimberly-Clark Corporation
-BK,The Bank of New York Mellon Corporation
-MRNA,Moderna, Inc.
-A,Agilent Technologies, Inc.
-KDP,Keurig Dr Pepper Inc.
-CMI,Cummins Inc.
-FIS,Fidelity National Information Services, Inc.
-DOW,Dow Inc.
-AME,AMETEK, Inc.
-D,Dominion Energy, Inc.
-PRU,Prudential Financial, Inc.
-KMI,Kinder Morgan, Inc.
-OTIS,Otis Worldwide Corporation
-KR,The Kroger Co.
-GEHC,GE HealthCare Technologies Inc.
-HSY,The Hershey Company
-CTVA,Corteva, Inc.
-LVS,Las Vegas Sands Corp.
-GIS,General Mills, Inc.
-CHTR,Charter Communications, Inc.
-LHX,L3Harris Technologies, Inc.
-KVUE,Kenvue Inc.
-CNC,Centene Corporation
-CSGP,CoStar Group, Inc.
-SYY,Sysco Corporation
-YUM,Yum! Brands, Inc.
-HUM,Humana Inc.
-EXC,Exelon Corporation
-IR,Ingersoll Rand Inc.
-MLM,Martin Marietta Materials, Inc.
-PWR,Quanta Services, Inc.
-FANG,Diamondback Energy, Inc.
-IT,Gartner, Inc.
-NDAQ,Nasdaq, Inc.
-HAL,Halliburton Company
-PCG,PG&E Corporation
-CTSH,Cognizant Technology Solutions Corporation
-EA,Electronic Arts Inc.
-VMC,Vulcan Materials Company
-BKR,Baker Hughes Company
-ACGL,Arch Capital Group Ltd.
-DVN,Devon Energy Corporation
-LYB,LyondellBasell Industries N.V.
-CDW,CDW Corporation
-RCL,Royal Caribbean Cruises Ltd.
-DG,Dollar General Corporation
-PEG,Public Service Enterprise Group Incorporated
-PPG,PPG Industries, Inc.
-GPN,Global Payments Inc.
-MPWR,Monolithic Power Systems, Inc.
-VRSK,Verisk Analytics, Inc.
-ROK,Rockwell Automation, Inc.
-EFX,Equifax Inc.
-ADM,Archer-Daniels-Midland Company
-EXR,Extra Space Storage Inc.
-DD,DuPont de Nemours, Inc.
-DFS,Discover Financial Services
-ED,Consolidated Edison, Inc.
-XYL,Xylem Inc.
-VICI,VICI Properties Inc.
-DAL,Delta Air Lines, Inc.
-ON,ON Semiconductor Corporation
-FICO,Fair Isaac Corporation
-XEL,Xcel Energy Inc.
-BIIB,Biogen Inc.
-ANSS,ANSYS, Inc.
-HIG,The Hartford Financial Services Group, Inc.
-FTV,Fortive Corporation
-CBRE,CBRE Group, Inc.
-HPQ,HP Inc.
-WST,West Pharmaceutical Services, Inc.
-MTD,Mettler-Toledo International Inc.
-GRMN,Garmin Ltd.
-RMD,ResMed Inc.
-KEYS,Keysight Technologies, Inc.
-DLTR,Dollar Tree, Inc.
-GLW,Corning Incorporated
-TSCO,Tractor Supply Company
-EIX,Edison International
-WTW,Willis Towers Watson PLC
-HWM,Howmet Aerospace Inc.
-EBAY,eBay Inc.
-ZBH,Zimmer Biomet Holdings, Inc.
-AVB,AvalonBay Communities, Inc.
-RJF,Raymond James Financial, Inc.
-TROW,T. Rowe Price Group, Inc.
-TTWO,Take-Two Interactive Software, Inc.
-CAH,Cardinal Health, Inc.
-WAB,Westinghouse Air Brake Technologies Corporation
-WEC,WEC Energy Group, Inc.
-WY,Weyerhaeuser Company
-TRGP,Targa Resources Corp.
-NVR,NVR, Inc.
-FITB,Fifth Third Bancorp
-CHD,Church & Dwight Co., Inc.
-ALGN,Align Technology, Inc.
-EQR,Equity Residential
-PHM,PulteGroup, Inc.
-BR,Broadridge Financial Solutions, Inc.
-BF.B,Brown-Forman Corporation
-DOV,Dover Corporation
-BLDR,Builders FirstSource, Inc.
-BRO,Brown & Brown, Inc.
-WDC,Western Digital Corporation
-LYV,Live Nation Entertainment, Inc.
-AWK,American Water Works Company, Inc.
-SBAC,SBA Communications Corporation
-MTB,M&T Bank Corporation
-HPE,Hewlett Packard Enterprise Company
-AXON,Axon Enterprise, Inc.
-STT,State Street Corporation
-STLD,Steel Dynamics, Inc.
-IRM,Iron Mountain Incorporated
-ARE,Alexandria Real Estate Equities, Inc.
-ETR,Entergy Corporation
-DTE,DTE Energy Company
-MOH,Molina Healthcare, Inc.
-PTC,PTC Inc.
-VLTO,Veralto Corporation
-FE,FirstEnergy Corp.
-DECK,Deckers Outdoor Corporation
-IFF,International Flavors & Fragrances Inc.
-HUBB,Hubbell Incorporated
-CPAY,Corpay, Inc.
-ROL,Rollins, Inc.
-ULTA,Ulta Beauty, Inc.
-INVH,Invitation Homes Inc.
-BAX,Baxter International Inc.
-WRB,W. R. Berkley Corporation
-NTAP,NetApp, Inc.
-APTV,Aptiv PLC
-WBD,Warner Bros. Discovery, Inc.
-BALL,Ball Corporation
-STE,STERIS plc
-ILMN,Illumina, Inc.
-ES,Eversource Energy
-GPC,Genuine Parts Company
-CTRA,Coterra Energy Inc.
-TSN,Tyson Foods, Inc.
-HBAN,Huntington Bancshares Incorporated
-MKC,McCormick & Company, Incorporated
-WAT,Waters Corporation
-PPL,PPL Corporation
-JBHT,J.B. Hunt Transport Services, Inc.
-TDY,Teledyne Technologies Incorporated
-AEE,Ameren Corporation
-COO,The Cooper Companies, Inc.
-FSLR,First Solar, Inc.
-PFG,Principal Financial Group, Inc.
-K,Kellanova Co
-HRL,Hormel Foods Corporation
-CCL,Carnival Corporation & plc
-VRSN,VeriSign, Inc.
-RF,Regions Financial Corporation
-CBOE,Cboe Global Markets, Inc.
-CINF,Cincinnati Financial Corporation
-DRI,Darden Restaurants, Inc.
-STX,Seagate Technology Holdings plc
-OMC,Omnicom Group Inc.
-CE,Celanese Corporation
-J,Jacobs Engineering Group Inc.
-TXT,Textron Inc.
-HOLX,Hologic, Inc.
-IEX,IDEX Corporation
-NTRS,Northern Trust Corporation
-CNP,CenterPoint Energy, Inc.
-CLX,The Clorox Company
-TYL,Tyler Technologies, Inc.
-BBY,Best Buy Co., Inc.
-LH,Laboratory Corporation of America Holdings
-CMS,CMS Energy Corporation
-AVY,Avery Dennison Corporation
-ATO,Atmos Energy Corporation
-VTR,Ventas, Inc.
-EXPD,Expeditors International of Washington, Inc.
-EXPE,Expedia Group, Inc.
-DPZ,Domino's Pizza, Inc.
-LDOS,Leidos Holdings, Inc.
-SYF,Synchrony Financial
-LUV,Southwest Airlines Co.
-SWKS,Skyworks Solutions, Inc.
-PKG,Packaging Corporation of America
-MRO,Marathon Oil Corporation
-TER,Teradyne, Inc.
-MAS,Masco Corporation
-FDS,FactSet Research Systems Inc.
-L,Loews Corporation
-EQT,EQT Corporation
-WBA,Walgreens Boots Alliance, Inc.
-JBL,Jabil Inc.
-ENPH,Enphase Energy, Inc.
-AKAM,Akamai Technologies, Inc.
-EG,Everest Group, Ltd.
-CFG,Citizens Financial Group, Inc.
-ESS,Essex Property Trust, Inc.
-MAA,Mid-America Apartment Communities, Inc.
-EPAM,EPAM Systems, Inc.
-ZBRA,Zebra Technologies Corporation
-NDSN,Nordson Corporation
-SNA,Snap-on Incorporated
-TRMB,Trimble Inc.
-POOL,Pool Corporation
-BG,Bunge Limited
-ALB,Albemarle Corporation
-CF,CF Industries Holdings, Inc.
-NRG,NRG Energy, Inc.
-SWK,Stanley Black & Decker, Inc.
-CAG,Conagra Brands, Inc.
-MGM,MGM Resorts International
-DGX,Quest Diagnostics Incorporated
-NWS,News Corporation
-NWSA,News Corporation
-HST,Host Hotels & Resorts, Inc.
-KEY,KeyCorp
-BEN,Franklin Resources, Inc.
-GEN,Gen Digital Inc.
-TAP,Molson Coors Beverage Company
-UAL,United Airlines Holdings, Inc.
-FOXA,Fox Corporation
-FOX,Fox Corporation
-VTRS,Viatris Inc.
-PNR,Pentair plc
-LKQ,LKQ Corporation
-DOC,Healthpeak Properties, Inc.
-RVTY,Revvity, Inc.
-AMCR,Amcor plc
-CRL,Charles River Laboratories International, Inc.
-IP,International Paper Company
-CPB,Campbell Soup Company
-KMX,CarMax, Inc.
-AES,The AES Corporation
-APA,APA Corporation
-LNT,Alliant Energy Corporation
-AOS,A. O. Smith Corporation
-KIM,Kimco Realty Corporation
-WRK,WestRock Company
-JKHY,Jack Henry & Associates, Inc.
-UDR,UDR, Inc.
-INCY,Incyte Corporation
-SJM,The J. M. Smucker Company
-PODD,Insulet Corporation
-NI,NiSource Inc.
-EVRG,Evergy, Inc.
-JNPR,Juniper Networks, Inc.
-IPG,The Interpublic Group of Companies, Inc.
-EMN,Eastman Chemical Company
-WYNN,Wynn Resorts, Limited
-PAYC,Paycom Software, Inc.
-DVA,DaVita Inc.
-LW,Lamb Weston Holdings, Inc.
-ALLE,Allegion plc
-FFIV,F5, Inc.
-SOLV,Solventum Corp.
-QRVO,Qorvo, Inc.
-TECH,Bio-Techne Corporation
-CPT,Camden Property Trust
-REG,Regency Centers Corporation
-HII,Huntington Ingalls Industries, Inc.
-RL,Ralph Lauren Corporation
-MOS,The Mosaic Company
-TFX,Teleflex Incorporated
-BBWI,Bath & Body Works, Inc.
-UHS,Universal Health Services, Inc.
-CTLT,Catalent, Inc.
-BXP,Boston Properties, Inc.
-GL,Globe Life Inc.
-DAY,Dayforce Inc
-TPR,Tapestry, Inc.
-BIO,Bio-Rad Laboratories, Inc.
-MTCH,Match Group, Inc.
-CZR,Caesars Entertainment, Inc.
-HSIC,Henry Schein, Inc.
-AIZ,Assurant, Inc.
-PNW,Pinnacle West Capital Corporation
-AAL,American Airlines Group Inc.
-CHRW,C.H. Robinson Worldwide, Inc.
-MKTX,MarketAxess Holdings Inc.
-FRT,Federal Realty Investment Trust
-GNRC,Generac Holdings Inc.
-BWA,BorgWarner Inc.
-NCLH,Norwegian Cruise Line Holdings Ltd.
-ETSY,Etsy, Inc.
-HAS,Hasbro, Inc.
-RHI,Robert Half International Inc.
-MHK,Mohawk Industries, Inc.
-FMC,FMC Corporation
-IVZ,Invesco Ltd.
-CMA,Comerica Incorporated
-PARA,Paramount Global
+symbol,name,industry,E,S,G,ESG
+MSFT,Microsoft Corporation,Software & Services,1.46,7.53,6.07,15.06
+AAPL,Apple Inc,Technology Hardware,0.46,7.39,9.37,17.22
+NVDA,NVIDIA Corporation,Semiconductors,2.3,4.95,6.34,13.59
+GOOGL,Alphabet Inc.,Software & Services,1.56,11.16,11.51,24.22
+GOOG,Alphabet Inc., , , , , 
+AMZN,Amazon.com Inc.,Retailing,6,15.39,9.22,30.61
+META,Meta Platforms Inc.,Software & Services,2.71,21.09,10.29,34.08
+BRK.B,Berkshire Hathaway Inc., , , , , 
+LLY,Eli Lilly and Company,Pharmaceuticals,2.54,12.6,9.14,24.28
+AVGO,Broadcom Inc.,Semiconductors,7.34,6,6.64,19.98
+JPM,JPMorgan Chase & Co.,Banks,1.11,16.45,11.7,29.26
+V,Visa Inc.,Software & Services,1.81,8.22,6.65,16.68
+XOM,Exxon Mobil Corporation,Oil & Gas Producers,23.11,10.01,8.48,41.6
+WMT,Walmart Inc.,Food Retailers,5.86,12.36,7.05,25.26
+TSLA,Tesla Inc.,Automobiles,3.31,14.08,7.85,25.23
+UNH,UnitedHealth Group Incorporated,Healthcare,0.03,9.67,5.59,15.3
+MA,Mastercard Incorporated,Software & Services,2.15,6.66,8.27,17.07
+PG,The Procter & Gamble Company,Household Products,9.6,12.23,6.74,28.57
+JNJ,Johnson & Johnson,Pharmaceuticals,0.92,15.02,8.03,23.98
+HD,The Home Depot Inc.,Retailing,3.32,5.56,3.76,12.64
+MRK,Merck & Co. Inc.,Pharmaceuticals,1.85,10.64,8.9,21.39
+COST,Costco Wholesale Corporation,Food Retailers,6.52,11.22,5.55,23.29
+ORCL,Oracle Corporation,Software & Services,0.5,7.79,5.6,13.89
+CVX,Chevron Corporation,Oil & Gas Producers,17.01,9.18,10.42,36.6
+BAC,Bank of America Corporation,Banks,1.73,15.09,11.48,28.3
+ABBV,AbbVie Inc.,Pharmaceuticals,2.38,17.19,10.36,29.93
+CRM,Salesforce Inc.,Software & Services,2.01,7.48,5.39,14.88
+KO,The Coca-Cola Company,Food Products,7.23,9.54,4.86,21.63
+NFLX,Netflix Inc.,Retailing,0.09,7.31,9.01,16.41
+AMD,Advanced Micro Devices Inc., , , , , 
+PEP,PepsiCo Inc.,Food Products,7.27,9.63,5.16,22.06
+TMO,Thermo Fisher Scientific Inc.,Pharmaceuticals,1.44,4.89,6.47,12.81
+WFC,Wells Fargo & Company,Banks,2.05,14.75,19.43,36.24
+LIN,Linde plc, , , , , 
+ADBE,Adobe Inc.,Software & Services,1.94,5.99,5.15,13.08
+DIS,The Walt Disney Company,Media,0.04,8.96,6.71,15.7
+MCD,McDonald's Corporation,Consumer Services,7.56,12.56,5.84,25.95
+ACN,Accenture plc,Software & Services,0.82,4.61,4.41,9.84
+CSCO,Cisco Systems Inc.,Technology Hardware,0.45,6.9,6.51,13.87
+TMUS,T-Mobile US Inc.,Telecommunication Services,4.19,13.38,7.07,24.63
+DHR,Danaher Corporation,Industrial Conglomerates,1.35,5.16,5.35,11.86
+ABT,Abbott Laboratories,Healthcare,2.27,14.24,8.33,24.83
+CAT,Caterpillar Inc.,Machinery,10.43,17.69,8.06,36.17
+QCOM,QUALCOMM Incorporated,Technology Hardware,5.34,4.5,5.55,15.39
+GE,GE Aerospace,Industrial Conglomerates,14.24,15.41,10.9,40.55
+INTU,Intuit Inc.,Software & Services,0.97,10.7,4.73,16.41
+AXP,American Express Company,Diversified Financials,0.05,8.85,9.7,18.61
+IBM,International Business Machines Corporation,Software & Services,1.78,6.22,6.14,14.14
+VZ,Verizon Communications Inc.,Telecommunication Services,3.74,9.59,5.39,18.73
+AMAT,Applied Materials Inc.,Semiconductors,4.49,2.97,5.28,12.74
+CMCSA,Comcast Corporation,Media,3.96,10.9,8.23,23.09
+MS,Morgan Stanley,Diversified Financials,1.14,12.91,10.53,24.58
+COP,Conoco Phillips,Oil & Gas Producers,17.57,8.07,8.28,33.91
+NOW,ServiceNow Inc.,Software & Services,3.99,6.04,6.57,16.59
+PM,Philip Morris International Inc.,Food Products,3.42,13.54,11.49,28.45
+TXN,Texas Instruments Incorporated,Semiconductors,7.76,5.96,6.93,20.65
+BX,Blackstone Inc.,Diversified Financials,2.52,9.57,11.29,23.39
+PFE,Pfizer Inc.,Pharmaceuticals,2.12,12.85,9.63,24.59
+UBER,Uber Technologies Inc., , , , , 
+AMGN,Amgen Inc.,Pharmaceuticals,0.73,13.48,7.75,21.96
+INTC,Intel Corporation,Semiconductors,4.93,7.32,6.62,18.87
+UNP,Union Pacific Corporation,Transportation,7.3,10.55,5.6,23.45
+NKE,NIKE Inc.,Textiles & Apparel,2.98,9.99,6.65,19.61
+GS,The Goldman Sachs Group Inc.,Diversified Financials,0.88,12.76,11.82,25.45
+NEE,NextEra Energy Inc.,Utilities,9.38,8.3,5.6,23.27
+RTX,RTX Corp,Aerospace & Defense,7.99,13.09,8.1,29.17
+ISRG,Intuitive Surgical Inc.,Healthcare,3.65,9.58,7.84,21.07
+LOW,Lowe's Companies Inc.,Retailing,3.31,5.31,3.17,11.78
+SCHW,The Charles Schwab Corporation,Diversified Financials,2.39,8.95,11.94,23.28
+SPGI,S&P Global Inc.,Diversified Financials,0,6.22,6.82,13.04
+HON,Honeywell International Inc.,Aerospace & Defense,10.99,10.59,7.04,28.62
+SYK,Stryker Corporation,Healthcare,3.99,13.24,11.03,28.26
+UPS,United Parcel Service Inc.,Transportation,4.17,8.91,5.49,18.57
+PGR,The Progressive Corporation,Insurance,1.45,8.5,10.07,20.02
+ETN,Eaton Corporation plc,Electrical Equipment,5.46,6.76,5.72,17.94
+MU,Micron Technology Inc.,Semiconductors,7.23,5.46,5.49,18.18
+ELV,Elevance Health Inc.,Canada Fund Emerging Markets Equity,49.44,51.49,48.7,49.33
+BKNG,Booking Holdings Inc.,Retailing,0.98,10.13,8.13,19.23
+C,Citigroup Inc.,Banks,1.8,13.75,13.69,29.24
+T,AT&T Inc.,Telecommunication Services,3.26,13.94,6.72,23.91
+LRCX,Lam Research Corporation,Semiconductors,4.5,3.97,5.14,13.61
+BLK,BlackRock Inc.,Diversified Financials,0.9,7.36,9.99,18.25
+LMT,Lockheed Martin Corporation,Aerospace & Defense,7.96,15.11,7.11,30.18
+DE,Deere & Company,Machinery,2.67,10.79,6.49,19.95
+MDT,Medtronic plc,Healthcare,1.78,13.43,7.57,22.77
+TJX,The TJX Companies Inc.,Retailing,1.89,7.65,4.84,14.38
+VRTX,Vertex Pharmaceuticals Incorporated,Pharmaceuticals,0.75,15.4,6.57,22.72
+ABNB,Airbnb Inc., , , , , 
+BA,The Boeing Company,Aerospace & Defense,8.84,22.48,8.29,39.6
+BSX,Boston Scientific Corporation,Healthcare,2.36,11.85,8.89,23.11
+ADP,Automatic Data Processing Inc.,Software & Services,2.8,5.54,5.49,13.82
+CB,Chubb Limited,Insurance,1.46,11.54,10.61,23.6
+CI,Cigna Corporation,Healthcare,0.02,5.99,5.65,11.65
+SBUX,Starbucks Corporation,Consumer Services,5.79,14.62,4.27,24.67
+MMC,Marsh & McLennan Companies Inc.,Insurance,0.09,11.31,9.67,21.07
+BMY,Bristol-Myers Squibb Company,Pharmaceuticals,1.31,14.37,7.07,22.74
+REGN,Regeneron Pharmaceuticals Inc.,Pharmaceuticals,0.34,10.96,6.74,18.04
+PLD,Prologis Inc.,Real Estate,2.74,2.5,5.03,10.27
+MDLZ,Mondelez International Inc.,Food Products,7.23,9.39,5.41,22.02
+PANW,Palo Alto Networks Inc.,Technology Hardware,0.7,7.62,5.6,13.92
+ADI,Analog Devices Inc.,Semiconductors,9.27,6.68,6.98,22.92
+FI,Fiserv Inc.,Software & Services,4.12,8.74,6.77,19.64
+KLAC,KLA Corporation,Semiconductors,7.41,5.13,4.64,17.19
+CVS,CVS Health Corporation,Food Retailers,0.03,15.76,6.17,21.97
+HCA,HCA Healthcare Inc.,Healthcare,3.9,17.72,7.22,28.84
+WM,Waste Management Inc.,Commercial Services,8.09,5.24,3.32,16.65
+GILD,Gilead Sciences Inc.,Pharmaceuticals,1,14.34,7.62,22.97
+AMT,American Tower Corporation,Real Estate,2.9,2.85,5.16,10.9
+CMG,Chipotle Mexican Grill Inc.,Consumer Services,6.79,9.59,4.27,20.66
+SNPS,Synopsys Inc.,Software & Services,3.34,6.93,4.16,14.42
+GD,General Dynamics Corporation,Aerospace & Defense,9.37,18.9,6.93,35.19
+SO,The Southern Company,Utilities,14.68,11,7.3,32.98
+ANET,Arista Networks Inc.,Technology Hardware,0.4,8.88,7.39,16.67
+EOG,EOG Resources Inc.,Oil & Gas Producers,20.16,6.67,7.33,34.16
+CME,CME Group Inc.,Diversified Financials,2.13,6.48,9.19,17.8
+TGT,Target Corporation,Retailing,1.93,7.55,4.86,14.35
+SHW,The Sherwin-Williams Company,Chemicals,14.31,9.2,5.85,29.35
+CDNS,Cadence Design Systems Inc.,Software & Services,2.33,4.88,4.81,12.02
+DUK,Duke Energy Corporation,Utilities,11.52,10.68,4.81,27.01
+ITW,Illinois Tool Works Inc.,Machinery,7,11.78,6.52,25.29
+ICE,Intercontinental Exchange Inc.,Diversified Financials,1.7,9.25,8.82,19.78
+MO,Altria Group Inc.,Food Products,6.1,17.64,7.58,31.32
+CL,Colgate-Palmolive Company,Household Products,8.32,11.31,6.54,26.17
+EQIX,Equinix Inc.,Software & Services,3.44,5.31,5.13,13.88
+MPC,Marathon Petroleum Corporation,Refiners & Pipelines,17.09,8.15,5.25,30.49
+PH,Parker-Hannifin Corporation,Machinery,9.46,13.78,6.24,29.48
+SLB,Schlumberger Limited,Energy Services,8.08,6.29,5.91,20.28
+NOC,Northrop Grumman Corporation,Aerospace & Defense,7.79,14.37,5.37,27.53
+MCK,McKesson Corporation,Healthcare,1.65,7.28,6.29,15.23
+MCO,Moody's Corporation,Diversified Financials,1.61,6.09,8.12,15.82
+MAR,Marriott International Inc.,Consumer Services,8.55,9.16,3.72,21.43
+TDG,TransDigm Group Incorporated,Aerospace & Defense,12.01,17.71,9,38.72
+FCX,Freeport-McMoRan Inc.,Diversified Metals,15.26,9.96,6.4,31.61
+APH,Amphenol Corporation,Technology Hardware,7.32,4.64,7.6,19.57
+ZTS,Zoetis Inc.,Pharmaceuticals,3.24,6.81,8.72,18.77
+PSX,Phillips 66,Refiners & Pipelines,20.76,8.82,5.85,35.43
+CSX,CSX Corporation,Transportation,7.04,10.03,4.84,21.91
+PYPL,PayPal Holdings Inc.,Software & Services,2.83,9.19,5.75,17.77
+BDX,Becton Dickinson and Company,Healthcare,3.04,13.65,7.13,23.82
+CTAS,Cintas Corporation,Commercial Services,3.03,9.17,5.88,18.08
+TT,Trane Technologies plc,Machinery,4.39,5.71,5.11,15.2
+FDX,FedEx Corporation,Transportation,5.66,8.42,5.61,19.68
+ORLY,O'Reilly Automotive Inc.,Retailing,0.14,8.15,3.76,12.05
+PXD,Pioneer Natural Resources Company,Oil & Gas Producers,16.52,8.25,7.33,32.1
+USB,U.S. Bancorp,Canada Fund Global Corporate Fixed Income,1.39,13.19,12.45,27.04
+ECL,Ecolab Inc.,Chemicals,8.54,6.05,5.27,19.86
+EMR,Emerson Electric Co.,Electrical Equipment,8.77,13.05,6.55,28.36
+PNC,The PNC Financial Services Group Inc.,Banks,1.94,13.29,10.83,26.07
+AON,Aon plc,Insurance,0.06,10.44,12.5,23
+RSG,Republic Services Inc.,Commercial Services,11.19,6.02,3.7,20.91
+OXY,Occidental Petroleum Corporation,Oil & Gas Producers,24.98,9.7,6.97,41.66
+PCAR,PACCAR Inc,Machinery,8.36,10.99,8.3,27.64
+CEG,Constellation Energy Corporation, , , , , 
+NXPI,NXP Semiconductors N.V.,Semiconductors,8.58,5.45,5.81,19.84
+ROP,Roper Technologies Inc.,Electrical Equipment,4.67,9.67,6.09,20.44
+MSI,Motorola Solutions Inc.,Technology Hardware,2.26,5.07,5.8,13.13
+COF,Capital One Financial Corporation,Diversified Financials,0.13,12.28,10.09,22.5
+MNST,Monster Beverage Corporation,Food Products,12.07,12.04,5.11,29.23
+VLO,Valero Energy Corporation,Refiners & Pipelines,20.15,7.42,4.99,32.56
+NSC,Norfolk Southern Corporation,Transportation,8.02,10.48,5.42,23.92
+EL,The Estée Lauder Companies Inc.,Household Products,6.95,11.05,7.48,25.48
+WELL,Welltower Inc.,Real Estate,4.24,3.49,5.5,13.23
+EW,Edwards Lifesciences Corporation,Healthcare,2.86,8.08,7.63,18.57
+CPRT,Copart Inc.,Commercial Services,1.48,8.96,5.59,16.03
+MET,MetLife Inc.,Insurance,0.69,6.96,8.77,16.43
+GM,General Motors Company,Automobiles,9.83,11.48,7.19,28.5
+APD,Air Products and Chemicals Inc.,Chemicals,7.42,1.5,3.35,12.26
+TFC,Truist Financial Corporation,Banks,2.01,13.02,10.39,25.42
+DXCM,DexCom Inc.,Healthcare,5.35,10.62,8.08,24.05
+AJG,Arthur J. Gallagher & Co.,Insurance,0.09,10.92,10.15,21.16
+MMM,3M Company,Industrial Conglomerates,17.22,13.59,6.54,37.35
+AZO,AutoZone Inc.,Retailing,0.11,7.07,3.83,11.02
+AIG,American International Group Inc.,Insurance,1.65,9.67,12.86,24.18
+F,Ford Motor Company,Automobiles,7.43,6.41,8.51,22.35
+HLT,Hilton Worldwide Holdings Inc.,Consumer Services,6.11,7,4.45,17.56
+CARR,Carrier Global Corporation, , , , , 
+FTNT,Fortinet Inc.,Software & Services,2.5,10.03,6.37,18.9
+DHI,D.R. Horton Inc.,Homebuilders,8.71,6.66,5.66,21.03
+TRV,The Travelers Companies Inc.,Insurance,1.01,9.3,10.02,20.33
+AFL,Aflac Incorporated,Insurance,0.3,9.14,8.9,18.33
+HES,Hess Corporation,Oil & Gas Producers,18.93,7.2,6.98,33.11
+STZ,Constellation Brands Inc.,Food Products,9.45,10.04,5.18,24.66
+ODFL,Old Dominion Freight Line Inc., , , , , 
+COR,Cencora,Healthcare,1.57,5.53,5.65,12.75
+WMB,The Williams Companies Inc.,Refiners & Pipelines,8.72,10.13,2.96,21.82
+GWW,W.W. Grainger Inc.,Traders & Distributors,4.54,5.55,5.91,16
+OKE,ONEOK Inc.,Refiners & Pipelines,10.83,11.01,3.31,25.15
+SPG,Simon Property Group Inc.,Real Estate,3.83,3.99,6.15,13.98
+ADSK,Autodesk Inc.,Software & Services,3.68,8.19,4.89,16.76
+MCHP,Microchip Technology Incorporated,Semiconductors,15.25,9.16,7.4,31.82
+ALL,The Allstate Corporation,Insurance,1.03,10.13,10.88,22.04
+KHC,The Kraft Heinz Company,Food Products,13.49,14.05,6.17,33.7
+PSA,Public Storage,Real Estate,4.74,2.61,5.7,13.05
+O,Realty Income Corporation,Real Estate,4.41,5.32,5.74,15.47
+KMB,Kimberly-Clark Corporation,Household Products,10.43,10.4,7.64,28.48
+SRE,Sempra,Utilities,10.86,7.85,4.88,23.59
+AEP,American Electric Power Company Inc.,Utilities,12.66,8.1,5.38,26.14
+ROST,Ross Stores Inc.,Retailing,1.79,10.76,5.68,18.23
+SMCI,Super Micro Computer Inc., , , , , 
+URI,United Rentals Inc.,Traders & Distributors,5.32,6.13,5.42,16.86
+JCI,Johnson Controls International plc,Auto Components,4.49,4.55,5.39,14.43
+TEL,TE Connectivity Ltd.,Technology Hardware,5.81,4.44,4.55,14.8
+LULU,Lululemon Athletica Inc.,Textiles & Apparel,1.58,9.86,5.5,16.94
+KDP,Keurig Dr Pepper Inc., , , , , 
+PAYX,Paychex Inc.,Software & Services,3.21,7.16,6.36,16.73
+NEM,Newmont Corporation,Precious Metals,7.05,8.24,5.22,20.52
+IQV,IQVIA Holdings Inc.,Pharmaceuticals,1.3,10.62,7.22,19.14
+BK,The Bank of New York Mellon Corporation,Diversified Financials,1.13,9.86,9.94,20.93
+DLR,Digital Realty Trust Inc.,Real Estate,2.8,2.81,7,12.61
+LEN,Lennar Corporation,Homebuilders,11.26,8.55,5.55,25.36
+D,Dominion Energy Inc.,Utilities,11.94,8.84,5.62,26.4
+NUE,Nucor Corporation,Steel,9.3,14.72,8.8,32.82
+AMP,Ameriprise Financial Inc.,Diversified Financials,2.08,7.83,10.34,20.27
+KMI,Kinder Morgan Inc.,Refiners & Pipelines,8.28,7.19,3.49,18.96
+AME,AMETEK Inc.,Electrical Equipment,8.65,8.51,6.73,23.9
+CMI,Cummins Inc.,Machinery,5.62,7.74,5.94,19.3
+CCI,Crown Castle Inc.,Real Estate,4.08,1.67,4.35,10.1
+FIS,Fidelity National Information Services Inc.,Software & Services,4.09,8.17,5.21,17.48
+MRNA,Moderna Inc., , , , , 
+IDXX,IDEXX Laboratories Inc.,Healthcare,2.62,7.1,8.94,18.66
+A,Agilent Technologies Inc.,Pharmaceuticals,1.12,6.42,6.1,13.64
+CNC,Centene Corporation,Healthcare,0.09,13.28,6.51,19.89
+PRU,Prudential Financial Inc.,Insurance,0.64,10.01,9.25,19.91
+GEV,GE Vernova, , , , , 
+KR,The Kroger Co.,Food Retailers,6.55,9.12,5.6,21.27
+GIS,General Mills Inc.,Food Products,8.32,8.72,4.09,21.13
+DOW,Dow Inc., , , , , 
+HUM,Humana Inc.,Healthcare,0.01,16.71,5.74,22.47
+OTIS,Otis Worldwide Corporation, , , , , 
+LHX,L3Harris Technologies Inc., , , , , 
+YUM,Yum! Brands Inc.,Consumer Services,4.53,11.45,4.12,20.1
+GEHC,GE HealthCare Technologies Inc., , , , , 
+FAST,Fastenal Company,Traders & Distributors,9.28,8.29,7.1,24.67
+CTVA,Corteva Inc., , , , , 
+CHTR,Charter Communications Inc.,Media,6.05,10.72,7.95,24.72
+SYY,Sysco Corporation,Food Retailers,5.42,6.05,4.47,15.95
+HSY,The Hershey Company,Food Products,10.52,10.4,5.14,26.05
+EXC,Exelon Corporation,Utilities,7.38,9.05,6.44,22.86
+KVUE,Kenvue Inc., , , , , 
+PWR,Quanta Services Inc.,Construction & Engineering,12.15,15.73,9.04,36.91
+MLM,Martin Marietta Materials Inc.,Construction Materials,16.68,4.77,8.67,30.12
+IR,Ingersoll Rand Inc.,Machinery,3.64,11.22,5.83,20.68
+FANG,Diamondback Energy Inc., , , , , 
+PCG,PG&E Corporation,Utilities,9.58,15.38,5.42,30.38
+MSCI,MSCI Inc.,Diversified Financials,1.57,6.97,7.74,16.27
+ACGL,Arch Capital Group Ltd.,Insurance,1.47,10.1,10.89,22.46
+NDAQ,Nasdaq Inc.,Diversified Financials,0.03,5.63,7.43,13.09
+RCL,Royal Caribbean Cruises Ltd.,Consumer Services,8.15,7.68,4.88,20.71
+IT,Gartner Inc.,Software & Services,0.11,13.17,5.64,18.93
+LVS,Las Vegas Sands Corp.,Consumer Services,2.3,7.72,8.67,18.69
+CSGP,CoStar Group Inc.,Software & Services,4.86,9.34,7.71,21.91
+HAL,Halliburton Company,Energy Services,9.79,8.9,6.94,25.63
+VMC,Vulcan Materials Company,Construction Materials,13.42,6.81,9.05,29.28
+EA,Electronic Arts Inc.,Software & Services,0.13,8.42,4.73,13.29
+CTSH,Cognizant Technology Solutions Corporation,Software & Services,1.11,7.64,5.91,14.66
+DVN,Devon Energy Corporation,Oil & Gas Producers,17.67,8.56,7.53,33.76
+PEG,Public Service Enterprise Group Incorporated,Utilities,12.48,9.28,5.46,27.23
+BKR,Baker Hughes Company, , , , , 
+GPN,Global Payments Inc.,Software & Services,3.65,10.68,6.54,20.87
+LYB,LyondellBasell Industries N.V.,Chemicals,13.5,2.1,5.09,20.69
+DFS,Discover Financial Services,Diversified Financials,0.13,11.87,10.51,22.5
+CDW,CDW Corporation,Technology Hardware,2.48,3.21,3.52,9.21
+ED,Consolidated Edison Inc.,Utilities,6.86,10.86,6.08,23.81
+VRSK,Verisk Analytics Inc.,Commercial Services,0.05,12.49,4.98,17.53
+DAL,Delta Air Lines Inc.,Transportation,9.88,14.57,5.8,30.26
+ROK,Rockwell Automation Inc.,Electrical Equipment,5.37,6.64,5.65,17.67
+XYL,Xylem Inc.,Machinery,4.27,8.66,5.19,18.13
+DG,Dollar General Corporation,Retailing,3.5,8.56,5.53,17.59
+ADM,Archer-Daniels-Midland Company,Food Products,16.64,10.15,5.01,31.79
+DD,DuPont de Nemours Inc.,Chemicals,14.66,7.99,5.94,28.6
+XEL,Xcel Energy Inc.,Utilities,12.7,9.26,4.49,26.45
+PPG,PPG Industries Inc.,Chemicals,10.98,7.7,6.54,25.21
+HIG,The Hartford Financial Services Group Inc.,Insurance,1.81,7.24,7.58,16.63
+VICI,VICI Properties Inc., , , , , 
+MPWR,Monolithic Power Systems Inc., , , , , 
+FICO,Fair Isaac Corporation, , , , , 
+WST,West Pharmaceutical Services Inc., , , , , 
+ANSS,ANSYS Inc.,Software & Services,3.51,7.32,5.07,15.89
+FTV,Fortive Corporation,Machinery,16.09,13.97,4.7,34.76
+EXR,Extra Space Storage Inc.,Real Estate,4.23,3.72,7.26,15.2
+BIIB,Biogen Inc.,Pharmaceuticals,0.42,14.46,7.37,22.24
+EFX,Equifax Inc.,Commercial Services,0.08,16.3,6.78,23.16
+TSCO,Tractor Supply Company,Retailing,3.43,8.19,4.47,16.1
+GRMN,Garmin Ltd.,Consumer Durables,4.78,11.63,4.25,20.66
+EIX,Edison International,Utilities,10.98,11.42,5.11,27.51
+RMD,ResMed Inc.,Healthcare,3.54,12.41,10.43,26.39
+HPQ,HP Inc.,Technology Hardware,0.11,5.05,6.09,11.26
+WTW,Willis Towers Watson PLC,Insurance,0.07,7.83,10.76,18.66
+GLW,Corning Incorporated,Technology Hardware,5.53,4.81,6.13,16.48
+AVB,AvalonBay Communities Inc.,Real Estate,2.96,2.05,4.75,9.76
+DLTR,Dollar Tree Inc.,Retailing,3.29,12.78,4.02,20.08
+CBRE,CBRE Group Inc.,Real Estate,1.46,1.89,4.64,7.98
+RJF,Raymond James Financial Inc.,Diversified Financials,2.35,11.23,13.44,27.02
+MTD,Mettler-Toledo International Inc.,Pharmaceuticals,1,7.41,4.69,13.1
+EBAY,eBay Inc.,Software & Services,2.74,7.65,7.21,17.6
+HWM,Howmet Aerospace Inc., , , , , 
+ON,ON Semiconductor Corporation,Semiconductors,11.79,5.69,4.95,22.43
+WAB,Westinghouse Air Brake Technologies Corporation,Machinery,5.36,11.99,5.98,23.33
+CHD,Church & Dwight Co. Inc.,Household Products,6.89,6.31,6.66,19.86
+WEC,WEC Energy Group Inc.,Utilities,13.36,8.96,5.13,27.46
+TRGP,Targa Resources Corp.,Refiners & Pipelines,14.23,14.75,4.24,33.21
+KEYS,Keysight Technologies Inc.,Technology Hardware,1.2,1.75,4.65,7.6
+ZBH,Zimmer Biomet Holdings Inc.,Healthcare,3.6,14.52,7.89,26.02
+FITB,Fifth Third Bancorp,Banks,1.19,8.15,7.5,16.84
+CAH,Cardinal Health Inc.,Healthcare,1.17,7.33,6.36,14.86
+NVR,NVR Inc.,Homebuilders,7.21,7.82,5.24,20.27
+TROW,T. Rowe Price Group Inc.,Diversified Financials,2.39,8.95,5.57,16.91
+MTB,M&T Bank Corporation,Banks,2.63,10.32,13.58,26.53
+TTWO,Take-Two Interactive Software Inc., , , , , 
+PHM,PulteGroup Inc.,Homebuilders,9.19,7.31,4.92,21.42
+EQR,Equity Residential,Real Estate,2.98,2.87,6.05,11.91
+BRO,Brown & Brown Inc.,Insurance,0.13,9.77,10.58,20.48
+DOV,Dover Corporation,Machinery,7.98,12.48,5.42,25.88
+BF.B,Brown-Forman Corporation, , , , , 
+ALGN,Align Technology Inc., , , , , 
+AWK,American Water Works Company Inc.,Utilities,9.04,7.58,5,21.62
+WY,Weyerhaeuser Company,Real Estate,9.05,4.18,3.45,16.68
+VLTO,Veralto Corporation, , , , , 
+BR,Broadridge Financial Solutions Inc.,Software & Services,4.19,7.5,4.94,16.63
+ETR,Entergy Corporation,Utilities,14.04,7.3,5.32,26.67
+BLDR,Builders FirstSource Inc., , , , , 
+WDC,Western Digital Corporation,Technology Hardware,1.48,3.91,6.05,11.43
+GPC,Genuine Parts Company,Retailing,4.67,5.18,3.8,13.66
+AXON,Axon Enterprise Inc., , , , , 
+DTE,DTE Energy Company,Utilities,15.03,10.04,4.73,29.8
+STT,State Street Corporation,Diversified Financials,1.61,12.95,9.52,24.08
+IRM,Iron Mountain Incorporated,Commercial Services,5,3.74,5.76,14.5
+CPAY,Corpay Inc., , , , , 
+FE,FirstEnergy Corp.,Utilities,10.77,8.99,5.79,25.56
+HPE,Hewlett Packard Enterprise Company,Technology Hardware,0.95,4.14,5.6,10.69
+IFF,International Flavors & Fragrances Inc.,Chemicals,10.49,5.57,6.63,22.69
+PTC,PTC Inc.,Software & Services,4.92,8.61,5.37,18.9
+SBAC,SBA Communications Corporation,Telecommunication Services,3.11,3.23,5.23,11.58
+HUBB,Hubbell Incorporated,Electrical Equipment,5.6,9.09,4.91,19.6
+TSN,Tyson Foods Inc.,Food Products,14.02,12.39,9.51,35.92
+DECK,Deckers Outdoor Corporation, , , , , 
+MOH,Molina Healthcare Inc., , , , , 
+STLD,Steel Dynamics Inc.,Steel,10.56,14.36,8.06,32.98
+CTRA,Coterra Energy Inc.,Oil & Gas Producers,20.26,8.34,7.47,36.07
+ES,Eversource Energy,Utilities,4.67,8.56,5.39,18.62
+ARE,Alexandria Real Estate Equities Inc.,Real Estate,3.91,3.66,6.32,13.89
+INVH,Invitation Homes Inc., , , , , 
+BAX,Baxter International Inc.,Healthcare,2.83,13.6,7.14,23.57
+LYV,Live Nation Entertainment Inc., , , , , 
+ROL,Rollins Inc.,Commercial Services,1.76,10.63,6.92,19.31
+BALL,Ball Corporation,Containers & Packaging,7.6,0.76,3.74,12.1
+WBD,Warner Bros. Discovery Inc., , , , , 
+NTAP,NetApp Inc.,Technology Hardware,2.19,7.74,5.5,15.43
+STE,STERIS plc, , , , , 
+WRB,W. R. Berkley Corporation,Insurance,1.97,7.95,11.91,21.83
+ULTA,Ulta Beauty Inc.,Retailing,4.08,7.25,4.28,15.61
+MKC,McCormick & Company Incorporated,Food Products,9.63,11.09,5.35,26.07
+PPL,PPL Corporation,Utilities,17.08,8.9,5.33,31.32
+K,Kellanova Co,Food Products,10.64,13.35,4.38,28.37
+HBAN,Huntington Bancshares Incorporated,Banks,1.97,11.19,8.68,21.84
+ILMN,Illumina Inc.,Pharmaceuticals,0.11,11.64,6.89,18.64
+AEE,Ameren Corporation,Utilities,12.85,9.07,5.25,27.17
+TDY,Teledyne Technologies Incorporated, , , , , 
+FSLR,First Solar Inc., , , , , 
+HRL,Hormel Foods Corporation,Food Products,13.31,10.68,6,30
+PFG,Principal Financial Group Inc.,Insurance,0.81,5.82,7.56,14.19
+APTV,Aptiv PLC,Auto Components,1.45,3.94,5.26,10.66
+CINF,Cincinnati Financial Corporation,Insurance,1.76,10.97,12.88,25.61
+CBOE,Cboe Global Markets Inc.,Diversified Financials,2.73,7.58,10.64,20.95
+VRSN,VeriSign Inc.,Software & Services,4.74,10.77,5.79,21.3
+DRI,Darden Restaurants Inc.,Consumer Services,7.92,15,4.55,27.47
+WAT,Waters Corporation,Pharmaceuticals,1.35,8.19,5.09,14.62
+CCL,Carnival Corporation & plc,Consumer Services,9.4,10.13,4.96,24.49
+OMC,Omnicom Group Inc.,Media,0.09,9.33,6.86,16.28
+TXT,Textron Inc.,Aerospace & Defense,10.92,16.08,6.61,33.61
+COO,The Cooper Companies Inc.,Healthcare,2.7,8.8,5.96,17.47
+CNP,CenterPoint Energy Inc.,Utilities,12.92,10.67,5.14,28.73
+J,Jacobs Engineering Group Inc.,Construction & Engineering,5.29,11.46,5.62,22.37
+STX,Seagate Technology Holdings plc,Technology Hardware,1.59,3.8,5.26,10.66
+HOLX,Hologic Inc.,Healthcare,4.57,12.08,8.35,25
+CLX,The Clorox Company,Household Products,7.72,8.59,5.31,21.63
+CMS,CMS Energy Corporation,Utilities,9.61,6.84,5.24,21.7
+RF,Regions Financial Corporation,Banks,1.82,6.67,8.36,16.85
+UAL,United Airlines Holdings Inc.,Transportation,10.78,12.79,5.04,28.61
+ATO,Atmos Energy Corporation,Utilities,14.83,13.42,6.36,34.61
+TYL,Tyler Technologies Inc., , , , , 
+EXPE,Expedia Group Inc.,Retailing,4.27,13.31,10.08,27.65
+LUV,Southwest Airlines Co.,Transportation,11.04,13.69,5.95,30.67
+IEX,IDEX Corporation,Machinery,10.28,13.72,5.34,29.34
+VTR,Ventas Inc.,Real Estate,3.42,3.89,5.56,12.86
+LH,Laboratory Corporation of America Holdings,Healthcare,0.43,12.71,6.6,19.74
+SYF,Synchrony Financial,Diversified Financials,0.13,9.89,7.25,17.28
+CE,Celanese Corporation,Chemicals,14.7,5.86,5.57,26.13
+LDOS,Leidos Holdings Inc.,Software & Services,3.37,9.03,5.25,17.65
+JBHT,J.B. Hunt Transport Services Inc.,Transportation,3.28,6.55,5,14.82
+NTRS,Northern Trust Corporation,Diversified Financials,1.87,11.83,10.17,23.86
+L,Loews Corporation,Insurance,0.59,4.25,11.53,16.38
+AVY,Avery Dennison Corporation,Containers & Packaging,11.42,0.95,3.71,16.07
+DPZ,Domino's Pizza Inc.,Consumer Services,10.65,12.2,6.34,29.19
+EQT,EQT Corporation,Oil & Gas Producers,17.66,10.08,7.95,35.69
+EXPD,Expeditors International of Washington Inc.,Transportation,4.15,7.56,4.84,16.56
+BBY,Best Buy Co. Inc.,Retailing,2.4,9.09,4.4,15.89
+MRO,Marathon Oil Corporation,Oil & Gas Producers,21.07,9.05,7.6,37.72
+MAS,Masco Corporation,Building Products,9.73,5.64,6.82,22.19
+CFG,Citizens Financial Group Inc.,Banks,1.96,10.15,11.43,23.54
+FDS,FactSet Research Systems Inc.,Software & Services,4.32,8.75,5.3,18.37
+EG,Everest Group Ltd.,Insurance,1.39,6.67,9.91,17.96
+SWKS,Skyworks Solutions Inc.,Semiconductors,11.82,8.93,7.21,27.95
+BG,Bunge Limited,Food Products,14.39,13.26,5.27,32.92
+WBA,Walgreens Boots Alliance Inc.,Food Retailers,1.79,9.29,5.18,16.25
+ESS,Essex Property Trust Inc.,Real Estate,3.46,2.84,6.13,12.44
+AKAM,Akamai Technologies Inc.,Software & Services,3,7.09,6.93,17.01
+ENPH,Enphase Energy Inc., , , , , 
+NRG,NRG Energy Inc.,Utilities,16.8,9.5,5.69,31.97
+PKG,Packaging Corporation of America,Containers & Packaging,13.96,1.06,3.62,18.64
+TER,Teradyne Inc.,Semiconductors,7.11,4.89,5.03,17.03
+DGX,Quest Diagnostics Incorporated,Healthcare,0.13,13.07,8,21.21
+NDSN,Nordson Corporation,Machinery,8.18,11.61,5.1,24.89
+CAG,Conagra Brands Inc.,Food Products,10.71,15.42,4.7,30.83
+MAA,Mid-America Apartment Communities Inc.,Real Estate,3.9,2.95,6.25,13.09
+CF,CF Industries Holdings Inc.,Chemicals,16.19,7.73,5.42,29.33
+JBL,Jabil Inc., , , , , 
+TRMB,Trimble Inc.,Technology Hardware,3.76,3.43,5.23,12.41
+FOXA,Fox Corporation,Media,58.53,45.13,52.7,50.37
+FOX,Fox Corporation, , , , , 
+POOL,Pool Corporation, , , , , 
+EPAM,EPAM Systems Inc., , , , , 
+SNA,Snap-on Incorporated,Machinery,9,13.91,7.62,30.53
+ZBRA,Zebra Technologies Corporation, , , , , 
+NWS,News Corporation, , , , , 
+NWSA,News Corporation,Media,0.02,4.74,6.72,11.47
+SWK,Stanley Black & Decker Inc.,Machinery,5,12.51,7.8,25.31
+KEY,KeyCorp,Banks,1.59,9.16,10.66,21.42
+TAP,Molson Coors Beverage Company,Food Products,7.25,8.61,5.51,21.37
+MGM,MGM Resorts International,Consumer Services,1.3,12.97,10.49,24.76
+HST,Host Hotels & Resorts Inc.,Real Estate,3.25,4.58,5.52,13.35
+VTRS,Viatris Inc., , , , , 
+ALB,Albemarle Corporation,Chemicals,15.39,4.85,6.33,26.57
+CPB,Campbell Soup Company,Food Products,10.87,8.15,4.47,23.5
+BEN,Franklin Resources Inc.,Diversified Financials,1.12,9.88,7.3,18.3
+GEN,Gen Digital Inc.,Software & Services,3.35,8.2,5.39,16.94
+DOC,Healthpeak Properties Inc., , , , , 
+AMCR,Amcor plc, , , , , 
+PNR,Pentair plc,Machinery,5.97,10.01,6.07,22.06
+AOS,A. O. Smith Corporation,Building Products,7.15,11.87,6.42,25.44
+LNT,Alliant Energy Corporation,Utilities,8.54,6.55,6.28,21.36
+RVTY,Revvity Inc.,Pharmaceuticals,0.75,10.1,5.85,16.7
+KIM,Kimco Realty Corporation,Real Estate,2.35,2.58,5.97,10.9
+NI,NiSource Inc.,Utilities,11.98,9.17,4.87,26.02
+SJM,The J. M. Smucker Company,Food Products,12.89,11.99,5.57,30.45
+CRL,Charles River Laboratories International Inc., , , , , 
+UDR,UDR Inc.,Real Estate,3.72,3.91,6.29,13.92
+AES,The AES Corporation,Utilities,13.26,8.18,5.26,26.69
+JKHY,Jack Henry & Associates Inc.,Software & Services,4.32,8.66,5.68,18.66
+WRK,WestRock Company,Containers & Packaging,56.02,58.81,61.85,58.45
+LW,Lamb Weston Holdings Inc., , , , , 
+EVRG,Evergy Inc., , , , , 
+IP,International Paper Company,Paper & Forestry,15.15,4.5,4.81,24.47
+APA,APA Corporation,Oil & Gas Producers,21.98,8.88,7.96,38.81
+DVA,DaVita Inc.,Healthcare,0.07,14.08,8.42,22.56
+IPG,The Interpublic Group of Companies Inc.,Media,0.04,5,5.28,10.32
+PODD,Insulet Corporation, , , , , 
+JNPR,Juniper Networks Inc.,Technology Hardware,1.82,7.2,5.8,14.82
+INCY,Incyte Corporation,Pharmaceuticals,1.06,16.3,7.41,24.76
+EMN,Eastman Chemical Company,Chemicals,12.84,5.85,6.59,25.27
+ALLE,Allegion plc,Building Products,10.9,5.84,5.04,21.78
+LKQ,LKQ Corporation,Retailing,3.8,4,3.27,11.07
+REG,Regency Centers Corporation,Real Estate,3.72,3.21,4.77,11.71
+WYNN,Wynn Resorts Limited,Consumer Services,3.37,11.75,10.58,25.7
+KMX,CarMax Inc.,Retailing,0.09,8.02,3.99,12.1
+SOLV,Solventum Corp., , , , , 
+HII,Huntington Ingalls Industries Inc.,Canada Fund Canadian Small/Mid Cap Equity,47.02,46.57,51.34,45.74
+PAYC,Paycom Software Inc., , , , , 
+RL,Ralph Lauren Corporation,Textiles & Apparel,1.22,7.79,5.62,14.62
+FFIV,F5 Inc.,Technology Hardware,4.14,7.61,5.4,17.15
+CPT,Camden Property Trust,Real Estate,4,3.93,8.17,16.09
+QRVO,Qorvo Inc.,Semiconductors,12.32,8.5,7.7,28.52
+BBWI,Bath & Body Works Inc.,Retailing,12.17,10.25,5.88,28.3
+CTLT,Catalent Inc., , , , , 
+TECH,Bio-Techne Corporation,Australia Fund Equity Global Technology,56.89,56.41,48.85,55.17
+TFX,Teleflex Incorporated,Healthcare,4.83,16.12,8.67,29.63
+UHS,Universal Health Services Inc.,Healthcare,3.7,20.68,8.6,32.98
+BXP,Boston Properties Inc.,Real Estate,2.54,4.52,5.45,12.51
+MOS,The Mosaic Company,Chemicals,13.87,11.05,8.6,33.52
+HSIC,Henry Schein Inc.,Healthcare,2,5.67,6.28,13.95
+AAL,American Airlines Group Inc.,Transportation,9.94,11.65,4.76,26.35
+DAY,Dayforce Inc, , , , , 
+PNW,Pinnacle West Capital Corporation,Utilities,14.72,10.23,5.84,30.79
+AIZ,Assurant Inc.,Insurance,1.63,10.82,11.66,24.11
+TPR,Tapestry Inc.,Textiles & Apparel,1.1,8.57,5.18,14.84
+FRT,Federal Realty Investment Trust,Real Estate,2.27,4.34,5.82,12.42
+MTCH,Match Group Inc., , , , , 
+CZR,Caesars Entertainment Inc., , , , , 
+NCLH,Norwegian Cruise Line Holdings Ltd.,Consumer Services,8.97,10.9,6.08,25.94
+CHRW,C.H. Robinson Worldwide Inc.,Transportation,4.73,9.29,5.3,19.32
+GNRC,Generac Holdings Inc., , , , , 
+BIO,Bio-Rad Laboratories Inc.,Pharmaceuticals,1.21,9.18,7,17.4
+ETSY,Etsy Inc.,EAA Fund Other Equity,63.4,62.86,62.1,64.51
+HAS,Hasbro Inc.,Consumer Durables,0.04,2.88,4.16,7.08
+PARA,Paramount Global,Media,0.11,7.51,7.37,14.99
+MKTX,MarketAxess Holdings Inc., , , , , 
+BWA,BorgWarner Inc.,Auto Components,2.67,4.21,5.71,12.59
+RHI,Robert Half International Inc.,Commercial Services,0.1,7.37,3.39,10.86
+FMC,FMC Corporation,Chemicals,14.35,8.92,7.46,30.73
+MHK,Mohawk Industries Inc.,Consumer Durables,5.75,4.19,4.19,14.14
+GL,Globe Life Inc.,Insurance,1.58,8.28,10.49,20.35
+CMA,Comerica Incorporated,Banks,2.5,11.04,11.66,25.19
+IVZ,Invesco Ltd.,Diversified Financials,0.73,11.02,11.04,22.79

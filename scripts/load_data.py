@@ -11,6 +11,6 @@ def run():
         for row in reader:
             print(row)
 
-            company = Company(symbol=row[0],name=row[1])
+            company = Company(symbol=row[0],name=row[1],industry=row[2],E=row[3],S=row[4],G=row[5],ESG=row[6])
 
             company.save()
