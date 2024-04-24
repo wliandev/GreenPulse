@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{% static 'style.css' %}">
     <script src="https://d3js.org/d3.v4.js"></script>
 </head>
-<body>
+<body onload="document.body.style.opacity='1'">
 
 <div class="banner">
     <h1>GreenPulse</h1>
@@ -41,27 +41,19 @@
     </div>
     <div class="fixed-div">
         <div class="graph">
-            <button>1M</button>
-            <button>1Y</button>
-            <button>5Y</button>
-            <div id="chart">Select a company to get started</div>
+            <div id="chart"><h2>Select a company to get started</h2></div>
         </div>
         <div class="info-section">
             <div class="score-info">
-                <p>Overall Score</p>
-                <p>Environment Score</p>
-                <p>Social Score</p>
-                <p>Governance Score</p>
+                <p>Closing Price: </p>
+                <p>Overall Score: </p>
+                <p>Environment Score: </p>
+                <p>Social Score: </p>
+                <p>Governance Score: </p>
             </div>
             <div class="gen-info">
-                <p>Company Name</p>
-                <p>Industry</p>
-                <p>Closing Price</p>
-            </div>
-            <div class="stock-info">
-                <p>Company Name</p>
-                <p>Industry</p>
-                <p>Closing Price</p>
+                <h3>Company Name</h3>
+                <h3>Industry</h3>
             </div>
         </div>
     </div>

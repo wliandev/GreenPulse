@@ -35,6 +35,8 @@ body, html {
     border-radius: 20px;
     box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.3);
     background-image: linear-gradient(#0D1E2B, 80%, #18364C);
+    /* animation */
+    animation: fadeInAnimation 1s;
 }
 .graph-caption {
     position: absolute;
@@ -47,9 +49,6 @@ body, html {
     display: flex;
 }
 .score-info {
-    flex: 1;
-}
-.stock-info {
     flex: 1;
 }
 .gen-info {
@@ -104,4 +103,15 @@ svg {
 }
 .yAxis path {
   stroke: #ffffff;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(5%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }
