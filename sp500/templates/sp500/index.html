@@ -155,7 +155,7 @@
 
             // Define right Y axis
             var y = d3.scaleLinear()
-                .domain([0, 50]) // find max score
+                .domain([0,50])
                 .range([ height, 0 ]);
             
             // Add right Y axis
@@ -172,7 +172,7 @@
                 .attr("stroke", "green")
                 .attr("stroke-width", 1.5)
                 .attr("d", d3.line()
-                    // .defined(function(d) { return d.esg != 0 })
+                    .defined(function(d) { return d.esg != 0 })
                     .curve(d3.curveLinear)
                     .x(function(d) { return x(d.date); })
                     .y(function(d) { return y(d.esg); })
