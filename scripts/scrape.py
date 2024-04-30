@@ -86,6 +86,20 @@ def write_csv(my_tickers, my_companies, info_1): # write data for model
         file.write("\n")
     file.close()
 
+def scrape_industries():
+    df = pd.read_csv("company_list.csv")
+    df = df.reset_index()
+
+    industries = set()
+
+    for index, row in df.iterrows():
+        industries.add(row['industry'])
+
+    with open('industries.txt', 'w') as f:
+        for item in industries:
+            f.write("%s\n" % item)
+    print("Done")
+
 if __name__=="__main__":
     info = scrape_name_and_ticker() 
     my_tickers = info[0]

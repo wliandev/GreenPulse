@@ -8,10 +8,24 @@
     <link rel="stylesheet" href="{% static 'style.css' %}">
     <script src="https://d3js.org/d3.v4.js"></script>
 </head>
-<body onload="document.body.style.opacity='1'">
+<body>
+
+<div class="modal-container" id="modal">
+
+    <div class="modal-content-container">
+
+        <h1>Are you interested in having technology companies in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+            <div>
+                <input type="checkbox" class="industry" checked="checked" value="Software & Services">
+                <label>Software & Services</label>            
+            </div>
+            <input type="submit" onclick="closeModal()" value="Finish">
+    </div>
+</div>
 
 <div class="banner">
-    <h1>GreenPulse</h1>
+    <h1>GreenPulse</h1> <button onclick="openModal()">Filter your results</button>
 </div>
 
 <div class="container">
@@ -27,10 +41,10 @@
                 <th>Score</th>
             </tr>
             {% for c in mycompanies %}
-            <tr onclick="showGraph('{{ c.symbol }}')">
+            <tr class="visible" onclick="showGraph('{{ c.symbol }}')">
                 <th>{{ c.symbol }}</th>
                 <th>{{ c.name }}</th>
-                <th>{{ c.industry }}</th>
+                <th class='test'>{{ c.industry }}</th>
                 <th>{{ c.E }}</th>
                 <th>{{ c.S }}</th>
                 <th>{{ c.G }}</th>
@@ -43,7 +57,7 @@
         <div class="graph">
             <div id="chart"><h2>Select a company to get started</h2></div>
         </div>
-        <div class="info-section">
+        <!-- <div class="info-section">
             <div class="score-info">
                 <p>Closing Price: </p>
                 <p>Overall Score: </p>
@@ -55,7 +69,7 @@
                 <h3>Company Name</h3>
                 <h3>Industry</h3>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 <div class="footer">
@@ -67,6 +81,31 @@
 </html>
 
 <script>
+
+    function openModal(){
+        document.getElementById('modal').style.visibility = "visible";
+    }
+
+    function closeModal(){
+        var filter = document.querySelectorAll('input:checked');
+        var filter_array = Array.from(filter);
+        var test_2 = [];
+        for (var i = filter_array.length; i--;) {
+            test_2.push(String(filter_array[i].value).trim());
+        }
+        document.getElementById('modal').style.visibility = "hidden";
+
+        var elements = document.querySelectorAll('.test');  
+        for (var i = elements.length; i--;) {
+            if (!(test_2.includes(String(elements[i].textContent).trim()))) {
+                elements[i].parentNode.style.display = "none";
+                elements[i].parentNode.classList.toggle('visible');
+            }
+        }
+             
+    }
+
+
     function showGraph(symbol) {
 
         document.getElementById('chart').replaceChildren();
