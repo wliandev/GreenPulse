@@ -1,0 +1,326 @@
+<div class="modal-container" id="ESG">
+    <div class="modal-content-container">
+        <h1>What is the highest ESG risk score you are willing to tolerate in your portfolio?</h1>
+        <div id="ESG-boxes">
+            <div>
+                <input type="radio" class="ESG" value="10">
+                <label>0 - 10 (negligible)</label>            
+            </div>
+            <div>
+                <input type="radio" class="ESG" value="20">
+                <label>10 - 20 (low)</label>            
+            </div>
+            <div>
+                <input type="radio" class="ESG" value="30">
+                <label>20 - 30 (medium)</label>            
+            </div>
+            <div>
+                <input type="radio" class="ESG" value="40">
+                <label>30 - 40 (high)</label>            
+            </div>
+            <div>
+                <input type="radio" class="ESG" value="100">
+                <label>40+ (severe)</label>            
+            </div>
+        </div>    
+        <p></p>
+        <input type="submit" onclick="closeESGModal()" value="Next">
+    </div>
+</div>
+
+<div class="modal-container" id="tech">
+    <div class="modal-content-container">
+        <h1>Are you interested in having Technology companies in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+        <div id="industry-boxes">
+            <div>
+                <input type="checkbox" class="industry" value="Software & Services" checked>
+                <label>Software & Services</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Telecommunication Services" checked>
+                <label>Telecommunication Services</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Semiconductors" checked>
+                <label>Semiconductors</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Technology Hardware" checked>
+                <label>Technology Hardware</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Electrical Equipment" checked>
+                <label>Electrical Equipment</label>            
+            </div>
+        </div>
+        <p></p>
+        <input type="submit" onclick="closeIndustryModal('tech')" value="Next">
+    </div>
+</div>
+
+<div class="modal-container" id="foreign">
+    <div class="modal-content-container">
+        <h1>Are you interested in having Foreign Funds in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+        <div id="industry-boxes">
+            <div>
+                <input type="checkbox" class="industry" value="Canada Fund Emerging Markets Equity" checked>
+                <label>Canadian Funds</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="EAA Fund Other Equity" checked>
+                <label>European Funds</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Australia Fund Equity Global Technology" checked>
+                <label>Australian Funds</label>            
+            </div>
+        </div>
+        <p></p>
+        <input type="submit" onclick="closeIndustryModal('foreign')" value="Next">
+    </div>
+</div>
+
+<div class="modal-container" id="healthcare">
+    <div class="modal-content-container">
+        <h1>Are you interested in having Healthcare companies in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+        <div id="industry-boxes">
+            <div>
+                <input type="checkbox" class="industry" value="Pharmaceuticals" checked>
+                <label>Pharmaceuticals</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Healthcare" checked>
+                <label>Healthcare</label>            
+            </div>
+        </div>
+        <p></p>
+        <input type="submit" onclick="closeIndustryModal('healthcare')" value="Next">
+    </div>
+</div>
+
+<div class="modal-container" id="financial">
+    <div class="modal-content-container">
+        <h1>Are you interested in having Financial companies in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+        <div id="industry-boxes">
+            <div>
+                <input type="checkbox" class="industry" value="Banks" checked>
+                <label>Banks</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Diversified Financials" checked>
+                <label>Diversified Financials</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Insurance" checked>
+                <label>Insurance</label>            
+            </div>
+        </div>
+        <p></p>
+        <input type="submit" onclick="closeIndustryModal('financial')" value="Next">
+    </div>
+</div>
+
+<div class="modal-container" id="energy">
+    <div class="modal-content-container">
+        <h1>Are you interested in having Energy companies in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+        <div id="industry-boxes">
+            <div>
+                <input type="checkbox" class="industry" value="Oil & Gas Producers" checked>
+                <label>Oil & Gas Producers</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Refiners & Pipelines" checked>
+                <label>Refiners & Pipelines</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Energy Services" checked>
+                <label>Energy Services</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Utilities" checked>
+                <label>Utilities</label>            
+            </div>
+        </div>
+        <p></p>
+        <input type="submit" onclick="closeIndustryModal('energy')" value="Next">
+    </div>
+</div>
+
+<div class="modal-container" id="transportation">
+    <div class="modal-content-container">
+        <h1>Are you interested in having Transportation companies in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+        <div id="industry-boxes">
+            <div>
+                <input type="checkbox" class="industry" value="Transportation" checked>
+                <label>Transportation</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Automobiles" checked>
+                <label>Automobiles</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Auto Components" checked>
+                <label>Auto Components</label>            
+            </div>
+        </div>
+        <p></p>
+        <input type="submit" onclick="closeIndustryModal('transportation')" value="Next">
+    </div>
+</div>
+
+<div class="modal-container" id="commercial">
+    <div class="modal-content-container">
+        <h1>Are you interested in having Commercial companies in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+        <div id="industry-boxes">
+            <div>
+                <input type="checkbox" class="industry" value="Consumer Durables" checked>
+                <label>Consumer Durables</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Food Retailers" checked>
+                <label>Food Retailers</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Food Products" checked>
+                <label>Food Products</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Textiles & Apparel" checked>
+                <label>Textiles & Apparel</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Retailing" checked>
+                <label>Retailing</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Consumer Services" checked>
+                <label>Consumer Services</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Household Products" checked>
+                <label>Household Products</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Commercial Services" checked>
+                <label>Commercial Services</label>            
+            </div>
+        </div>
+        <p></p>
+        <input type="submit" onclick="closeIndustryModal('commercial')" value="Next">
+    </div>
+</div>
+
+<div class="modal-container" id="property">
+    <div class="modal-content-container">
+        <h1>Are you interested in having Property companies in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+        <div id="industry-boxes">
+            <div>
+                <input type="checkbox" class="industry" value="Real Estate" checked>
+                <label>Real Estate</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Homebuilders" checked>
+                <label>Homebuilders</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Building Products" checked>
+                <label>Building Products</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Construction & Engineering" checked>
+                <label>Construction & Engineering</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Construction Materials" checked>
+                <label>Construction Materials</label>            
+            </div>
+        </div>
+        <p></p>
+        <input type="submit" onclick="closeIndustryModal('property')" value="Next">
+    </div>
+</div>
+
+<div class="modal-container" id="industrial">
+    <div class="modal-content-container">
+        <h1>Are you interested in having Industrial companies in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+        <div id="industry-boxes">
+            <div>
+                <input type="checkbox" class="industry" value="Traders & Distributors" checked>
+                <label>Traders & Distributors</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Containers & Packaging" checked>
+                <label>Containers & Packaging</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Industrial Conglomerates" checked>
+                <label>Industrial Conglomerates</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Machinery" checked>
+                <label>Machinery</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Precious Metals" checked>
+                <label>Precious Metals</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Diversified Metals" checked>
+                <label>Diversified Metals</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Steel" checked>
+                <label>Steel</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Chemicals" checked>
+                <label>Chemicals</label>            
+            </div>
+            <div>
+                <input type="checkbox" class="industry" value="Paper & Forestry" checked>
+                <label>Paper & Forestry</label>            
+            </div>
+        </div>
+        <p></p>
+        <input type="submit" onclick="closeIndustryModal('industrial')" value="Next">
+    </div>
+</div>
+
+<div class="modal-container" id="media">
+    <div class="modal-content-container">
+        <h1>Are you interested in having Media companies in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+        <div id="industry-boxes">
+            <div>
+                <input type="checkbox" class="industry" value="Media" checked>
+                <label>Media</label>            
+            </div>
+        </div>
+        <p></p>
+        <input type="submit" onclick="closeIndustryModal('media')" value="Next">
+    </div>
+</div>
+
+<div class="modal-container" id="defense">
+    <div class="modal-content-container">
+        <h1>Are you interested in having Aerospace & Defense companies in your portfolio?</h1>
+        <h3>(Uncheck the industries you don't want to include)</h3>
+        <div id="industry-boxes">
+            <div>
+                <input type="checkbox" class="industry" value="Aerospace & Defense" checked>
+                <label>Aerospace & Defense</label>            
+            </div>
+        </div>
+        <p></p>
+        <input type="submit" onclick="closeIndustryModal('defense')" value="Next">
+    </div>
+</div>

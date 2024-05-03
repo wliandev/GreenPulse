@@ -5,27 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenPulse</title>
     {% load static %}
+    <script src="{% static 'main.js' %}"></script>
     <link rel="stylesheet" href="{% static 'style.css' %}">
     <script src="https://d3js.org/d3.v4.js"></script>
 </head>
 <body>
 
-<div class="modal-container" id="modal">
-
-    <div class="modal-content-container">
-
-        <h1>Are you interested in having technology companies in your portfolio?</h1>
-        <h3>(Uncheck the industries you don't want to include)</h3>
-            <div>
-                <input type="checkbox" class="industry" checked="checked" value="Software & Services">
-                <label>Software & Services</label>            
-            </div>
-            <input type="submit" onclick="closeModal()" value="Finish">
-    </div>
-</div>
+{% include 'sp500/quiz.html' %}
 
 <div class="banner">
-    <h1>GreenPulse</h1> <button onclick="openModal()">Filter your results</button>
+    <h1>GreenPulse</h1> <button onclick="openModal()">Take A Recommendation Quiz</button>
 </div>
 
 <div class="container">
@@ -44,11 +33,11 @@
             <tr class="visible" onclick="showGraph('{{ c.symbol }}')">
                 <th>{{ c.symbol }}</th>
                 <th>{{ c.name }}</th>
-                <th class='test'>{{ c.industry }}</th>
-                <th>{{ c.E }}</th>
-                <th>{{ c.S }}</th>
-                <th>{{ c.G }}</th>
-                <th>{{ c.ESG }}</th>
+                <th class='industry'>{{ c.industry }}</th>
+                <th class='e'>{{ c.E }}</th>
+                <th class='s'>{{ c.S }}</th>
+                <th class='g'>{{ c.G }}</th>
+                <th class='esg'>{{ c.ESG }}</th>
             </tr> 
             {% endfor %}
         </table>
@@ -57,169 +46,19 @@
         <div class="graph">
             <div id="chart"><h2>Select a company to get started</h2></div>
         </div>
-        <!-- <div class="info-section">
-            <div class="score-info">
-                <p>Closing Price: </p>
-                <p>Overall Score: </p>
-                <p>Environment Score: </p>
-                <p>Social Score: </p>
-                <p>Governance Score: </p>
+        <div class='info-section'>
+            <div class='table-info'>
+                <button onclick="calculateAvgESG()">Calculate Average ESG for Table</button>
+                <h2 id='avg_esg'>Average ESG Score: </h2>
+                <h3 id='avg_e'>Average E Score: </h3>
+                <h3 id='avg_s'>Average S Score: </h3>
+                <h3 id='avg_g'>Average G Score: </h3>
             </div>
-            <div class="gen-info">
-                <h3>Company Name</h3>
-                <h3>Industry</h3>
+            <div class='graph-info'>
             </div>
-        </div> -->
+        </div>
     </div>
-</div>
-<div class="footer">
-    <h2>About this Site</h2>
-    <p>This is the text that appears below both divs.</p>
 </div>
 
 </body>
 </html>
-
-<script>
-
-    function openModal(){
-        document.getElementById('modal').style.visibility = "visible";
-    }
-
-    function closeModal(){
-        var filter = document.querySelectorAll('input:checked');
-        var filter_array = Array.from(filter);
-        var test_2 = [];
-        for (var i = filter_array.length; i--;) {
-            test_2.push(String(filter_array[i].value).trim());
-        }
-        document.getElementById('modal').style.visibility = "hidden";
-
-        var elements = document.querySelectorAll('.test');  
-        for (var i = elements.length; i--;) {
-            if (!(test_2.includes(String(elements[i].textContent).trim()))) {
-                elements[i].parentNode.style.display = "none";
-                elements[i].parentNode.classList.toggle('visible');
-            }
-        }
-             
-    }
-
-
-    function showGraph(symbol) {
-
-        document.getElementById('chart').replaceChildren();
-
-        // set the dimensions and margins of the graph
-        var margin = {top: 50, right: 50, bottom: 50, left: 50},
-            width = window.innerWidth/2.2 - margin.left - margin.right,
-            height = (window.innerHeight)/1.8 - margin.top - margin.bottom; 
-
-        // append the svg object to the body of the page
-        var svg = d3.select("#chart")
-            .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-            .append("g")
-            .attr("transform",
-                    "translate(" + margin.left + "," + margin.top + ")");
-
-        // Read the stock data
-        d3.csv("/static/Stock_data/stock_" + symbol+ ".csv",
-
-        // Format the stock data
-        // Date,Open,High,Low,Close,Volume,Dividends,Splits
-        function(d){
-            return { date : d3.timeParse("%Y-%m-%d")(d.Date.split(" ")[0]), open : d.Open, high : d.High, low : d.Low, close : d.Close, volume : d.Volume, dividends : d.Dividends }
-        },
-
-        // plot the closing price
-        function(data) {
-
-            // Add X axis 
-            var x = d3.scaleTime()
-                .domain(d3.extent(data, function(d) { return d.date; })) 
-                .range([ 0, width ]);
-            svg.append("g")
-                .attr("transform", "translate(0," + height + ")")
-                .attr("class", "xAxis")
-                .style('stroke', 'white')
-                .call(d3.axisBottom(x));
-
-            // Add left Y axis
-            var y = d3.scaleLinear()
-                .domain([0, d3.max(data, function(d) { return +d.close; })])
-                .range([ height, 0 ]);
-            svg.append("g")
-                .attr("class", "yAxis")
-                .style('stroke', 'white')
-                .call(d3.axisLeft(y));
-        
-            // Add the line
-            svg.append("path")
-                .datum(data)
-                .attr("fill", "none")
-                .attr("stroke", "steelblue")
-                .attr("stroke-width", 1.5)
-                .attr("d", d3.line()
-                    .x(function(d) { return x(d.date) })
-                    .y(function(d) { return y(d.open) })
-                    )            
-            }
-        )
-
-        // Read the ESG data
-        d3.csv("/static/ESG_data/esg_" + symbol+ ".csv",
-
-        // Format the ESG data
-        // index,timestamp,esgScore,governanceScore,environmentScore,socialScore
-        function(d){
-            return { date : d3.timeParse("%Y-%m-%d")(d.timestamp), esg: d.esgScore, gov : d.governanceScore, env : d.environmentScore, soc : d.socialScore }
-        },
-        // plot the esg score
-        function(data) {
-
-            // Define X axis 
-            var x = d3.scaleTime()
-                .domain(d3.extent(data, function(d) { return d.date; })) // find cut off date
-                .range([ 0, width ]);
-
-            // Define right Y axis
-            var y = d3.scaleLinear()
-                .domain([0,50])
-                .range([ height, 0 ]);
-            
-            // Add right Y axis
-            svg.append("g")
-                .attr("class", "yAxis")
-                .attr('transform', 'translate(' + width + ', 0)')
-                .style('stroke', 'white')
-                .call(d3.axisRight(y));
-
-            // Add the line
-            svg.append("path")
-                .datum(data)
-                .attr("fill", "none")
-                .attr("stroke", "green")
-                .attr("stroke-width", 1.5)
-                .attr("d", d3.line()
-                    .defined(function(d) { return d.esg != 0 })
-                    .curve(d3.curveLinear)
-                    .x(function(d) { return x(d.date); })
-                    .y(function(d) { return y(d.esg); })
-                    )
-                    
-            svg.append('g')
-                .selectAll("dot")
-                .data(data)
-                .enter()
-                .append("circle")
-                .attr("cx", function (d) { return x(d.date); } )
-                .attr("cy", function (d) { return y(d.esg); } )
-                .attr("r", 3)
-                .style("fill", "#69b3a2")
-            }
-        
-        )
-    }
-</script>
