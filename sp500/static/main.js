@@ -1,4 +1,5 @@
 function openModal(){
+    // open all modals
     const ids = ['ESG','tech','foreign','healthcare','financial','energy','transportation','commercial','property','industrial','media','defense'];
     for (var i=0; i<ids.length; i++) {
         document.getElementById(ids[i]).style.visibility = "visible";   
@@ -6,6 +7,7 @@ function openModal(){
 }
 
 function closeESGModal(){
+    // close ESG modal and filter results
     var filter = document.querySelectorAll('input[type=radio]:checked');
     var filter_array = Array.from(filter);
     var esg = [];
@@ -24,6 +26,7 @@ function closeESGModal(){
 }
 
 function closeIndustryModal(id){
+    // close each industry modal and filter results
     var filter = document.querySelectorAll('input[type=checkbox]:not(:checked)');
     var filter_array = Array.from(filter);
     var ind = [];
@@ -39,28 +42,68 @@ function closeIndustryModal(id){
             elements[i].parentNode.classList.toggle('visible');
         }
     }  
+    calculateAvgESG();
+}
+
+function std(arr) {
+    // calculate standard deviation
+    let mean = arr.reduce((acc, curr) => {
+        return acc + curr
+    }, 0) / arr.length;
+    arr = arr.map((k) => {
+        return (k - mean) ** 2
+    });
+    let sum = arr.reduce((acc, curr) => acc + curr, 0);
+    return Math.sqrt(sum / arr.length).toFixed(2)
 }
 
 function calculateAvgESG(){
+    // calculate mean (this and above functions can be merged)
     const ids = ['e','s','g','esg']
     for (var i=0; i<ids.length; i++){
         var elements = document.querySelectorAll('.'+ids[i]);
+        var arr = [];
         var score = 0;
         var count = 0
-        for (var j = elements.length; j--;) {
+        for (var j=0; j<elements.length; j++) {
             if (!(String(elements[j].textContent) === " ") && !(elements[j].offsetParent === null)) {
                 score += parseFloat(elements[j].textContent.trim());
+                arr.push(parseFloat(elements[j].textContent.trim()));
                 count += 1;
             }
         }
         score = (score / count).toFixed(2);
-        document.getElementById('avg_'+ids[i]).textContent = "Average " + ids[i].toUpperCase() + " Score: " + String(score);  
+        var stand = std(arr);
+        document.getElementById('avg_'+ids[i]).textContent = "Mean " + ids[i].toUpperCase() + " Score: " + String(score) + " (std. " + String(stand) + ")"; 
+        document.getElementById('count').textContent = "Showing " + String(count) + " companies";  
     }
+    // calculate distribution statistics
+    var esg_nodelist = document.querySelectorAll('.esg');
+    var esg_arr = [];
+    for (var i=0; i<esg_nodelist.length; i++) {
+        if (!(String(esg_nodelist[i].textContent) === " ") && !(esg_nodelist[i].offsetParent === null)) {
+            esg_arr.push(parseFloat(esg_nodelist[i].textContent.trim()));
+        }
+    }
+    const esg_sort = esg_arr.sort(function(a, b){return a - b})
+    document.getElementById('min').textContent = "Min: " + String(esg_sort[0]); 
+    document.getElementById('q1').textContent = "Q1: " + String(esg_sort[Math.floor(esg_sort.length*0.25) - 1]); 
+    document.getElementById('median').textContent = "Median: " + String(esg_sort[Math.floor(esg_sort.length*0.50) - 1]); 
+    document.getElementById('q3').textContent = "Q3: " + String(esg_sort[Math.floor(esg_sort.length*0.75) - 1]); 
+    document.getElementById('max').textContent = "Max: " + String(esg_sort[esg_sort.length-1]); 
+
 }
 
 function showGraph(symbol) {
 
     document.getElementById('chart').replaceChildren();
+
+    var mytooltip = document.getElementById("tooltip");
+
+    if(mytooltip) {
+        mytooltip.style.opacity = 0;
+    }
+
     
     // set the dimensions and margins of the graph
     var margin = {top: 50, right: 50, bottom: 50, left: 50},
@@ -105,7 +148,7 @@ function showGraph(symbol) {
         svg.append("g")
             .attr("class", "yAxis")
             .style('stroke', 'white')
-            .call(d3.axisLeft(y));
+            .call(d3.axisLeft(y));    
     
         // Add the line
         svg.append("path")
@@ -116,8 +159,10 @@ function showGraph(symbol) {
             .attr("d", d3.line()
                 .x(function(d) { return x(d.date) })
                 .y(function(d) { return y(d.open) })
-                )            
+            )
+                
         }
+
     )
 
     // Read the ESG data
@@ -151,6 +196,7 @@ function showGraph(symbol) {
         // Add the line
         svg.append("path")
             .datum(data)
+            .attr("id", "line")
             .attr("fill", "none")
             .attr("stroke", "green")
             .attr("stroke-width", 1.5)
@@ -160,7 +206,14 @@ function showGraph(symbol) {
                 .x(function(d) { return x(d.date); })
                 .y(function(d) { return y(d.esg); })
                 )
-                
+        
+        // add a tooltip
+        d3.select('body')
+        .append('div')
+        .attr('id', 'tooltip')
+        .attr('style', 'position: absolute; opacity: 0;');
+        
+        // Add dots
         svg.append('g')
             .selectAll("dot")
             .data(data)
@@ -168,8 +221,24 @@ function showGraph(symbol) {
             .append("circle")
             .attr("cx", function (d) { return x(d.date); } )
             .attr("cy", function (d) { return y(d.esg); } )
-            .attr("r", 3)
+            .attr("r", 4)
             .style("fill", "#69b3a2")
+            .on('mouseover', function(d) {
+                d3.select('#tooltip').style('opacity', 1).text(d.esg)
+            })
+            .on('mouseout', function(d) {
+                d3.select('#tooltip').transition().duration(200).style('opacity', 1).text(d.esg)
+            })
+            .on('mousemove', function() {
+                d3.select('#tooltip').style('opacity', 0)
+            })
+            .on('mousemove', function() {
+                d3.select('#tooltip')
+                .style('left', d3.event.pageX + 'px')
+                .style('top', d3.event.pageY + 'px')
+                })
+
+            
         }
     
     )

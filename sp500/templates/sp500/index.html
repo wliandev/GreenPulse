@@ -19,6 +19,7 @@
 
 <div class="container">
     <div class="table-container">
+        <h3 id='count'> Showing N companies</h3>
         <table>
             <tr>
                 <th>Symbol</th>
@@ -48,17 +49,27 @@
         </div>
         <div class='info-section'>
             <div class='table-info'>
-                <button onclick="calculateAvgESG()">Calculate Average ESG for Table</button>
-                <h2 id='avg_esg'>Average ESG Score: </h2>
-                <h3 id='avg_e'>Average E Score: </h3>
-                <h3 id='avg_s'>Average S Score: </h3>
-                <h3 id='avg_g'>Average G Score: </h3>
+                <button onclick="calculateAvgESG()">Calculate Table Statistics</button>
+                <h2 id='avg_esg'>Mean ESG Risk Score: </h2>
+                <p id='avg_e'>Mean E Score: </p>
+                <p id='avg_s'>Mean S Score: </p>
+                <p id='avg_g'>Mean G Score: </p>
             </div>
             <div class='graph-info'>
+                <p id='min'> Min: </p>
+                <p id='q1'> Q1: </p>
+                <p id='median'> Median: </p>
+                <p id='q3'> Q3: </p>
+                <p id='max'> Max: </p>
             </div>
         </div>
     </div>
 </div>
-
+<div class="footer">
+    <h2> About This Site</h2>
+    <p> A company's "Environmental, Social, and Governance" (ESG) risk score evaluates its sustainability in these 3 categories. The lower the risk score, the better. </p>
+    <p> This site displays the ESG risk scores for companies in the S&P 500 index fund, and provides statistical analysis for S&P 500's ESG risk score overall. </p>
+    <p> The quiz can recommend companies based on your target  risk score or industries. Disclaimer: this is not financial advice.  </p>
+</div>
 </body>
 </html>

@@ -1,6 +1,3 @@
-from errno import EMSGSIZE
-from re import S
-from tkinter import E, scrolledtext
 from django.db import models
 
 class Company(models.Model):

@@ -176,13 +176,7 @@ svg {
     column-gap: 20px;
     justify-content: space-between;
 }
-#animated {
-    opacity: 1;
-    transition: opacity 1s; 
-}
-#animated.fade {
-    opacity: 0;
-}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -193,6 +187,3 @@ svg {
         transform: translateY(0%);
     }
 }
-
-
-  
